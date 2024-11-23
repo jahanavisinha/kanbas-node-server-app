@@ -23,4 +23,3 @@ export function findModulesForCourse(courseId) {
     const { modules } = Database;
     return modules.filter((module) => module.course === courseId);
 }
-
